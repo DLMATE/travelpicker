@@ -7,6 +7,7 @@ const LoginPage = lazy(() => import("@/pages/LoginPage/LoginPage"));
 const router = createBrowserRouter([
   {
     id: "root",
+    // todo - /로 바꾸고 login auth 체크 로직 추가
     path: "/",
     element: <App />,
     children: [
