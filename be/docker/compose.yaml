@@ -1,0 +1,6 @@
+services:
+  travelpicker:
+    container_name: travelpicker
+    image: travelpicker:test
+    ports:
+      - "${APP_PORT}:8000"
